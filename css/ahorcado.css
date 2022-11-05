@@ -1,0 +1,70 @@
+body{
+  margin: 0 33%;
+  padding: 0px;
+  background-image: url('./../img/efectos.gif');
+  text-align: center;
+  font-family: 'Courgette', cursive;
+}
+
+.main{
+  background-color: #fff;
+  padding: 30px 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.palabra{
+  margin: 10px;
+  font-size: 30px;
+}
+.abecedario{
+  padding: 20px;
+}
+.btn-success{
+  padding: 6px 10px;
+  margin: 3px;
+  background: #0ED143;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-success:hover{
+  background: #56b36e;
+}
+.btn-primary{
+  padding:8px 20px;
+  margin: 3px;
+  background: #340EDF;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Courgette', cursive;
+}
+.btn-primary:hover{
+  background: #6146d6;
+}
+.btn-danger{
+  padding: 6px 10px;
+  margin: 3px;
+  background: #DF0E31;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-danger:hover{
+  background: #d84f66;
+}
+.text-primary {
+  color: #340EDF;
+}
+
+.text-success {
+  color: #0ED143;
+}
+
+.text-danger {
+  color: #DF0E31;
+}
