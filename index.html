@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <title>Juego ahorcado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+    <link href='css/ahorcado.css' rel='stylesheet' type='text/css' media='screen'>
+  </head>
+  <body>
+    <div class="main">
+      <h2 class="text-success">Juego del AHORCADO</h2>
+      <h4>Juego desarrollado en el curso de CERTUS</h4>
+
+      <h1 id="mensaje"></h1>
+      <img src="img/img_0.png" id="img">
+
+      <h3>Elige <span id="tipopalabra"></span></h3>
+      <div class="palabra" id="palabra"></div>
+
+      <div class="abecedario">
+        <button type="button" class="btn btn-success" id="letra_A" onclick="marcar_letra('A')">A</button>
+        <button type="button" class="btn btn-success" id="letra_B" onclick="marcar_letra('B')">B</button>
+        <button type="button" class="btn btn-success" id="letra_C" onclick="marcar_letra('C')">C</button>
+        <button type="button" class="btn btn-success" id="letra_D" onclick="marcar_letra('D')">D</button>
+        <button type="button" class="btn btn-success" id="letra_E" onclick="marcar_letra('E')">E</button>
+        <button type="button" class="btn btn-success" id="letra_F" onclick="marcar_letra('F')">F</button>
+        <button type="button" class="btn btn-success" id="letra_G" onclick="marcar_letra('G')">G</button>
+        <button type="button" class="btn btn-success" id="letra_H" onclick="marcar_letra('H')">H</button>
+        <button type="button" class="btn btn-success" id="letra_I" onclick="marcar_letra('I')">I</button>
+        <button type="button" class="btn btn-success" id="letra_J" onclick="marcar_letra('J')">J</button>
+        <button type="button" class="btn btn-success" id="letra_K" onclick="marcar_letra('K')">K</button>
+        <button type="button" class="btn btn-success" id="letra_L" onclick="marcar_letra('L')">L</button>
+        <button type="button" class="btn btn-success" id="letra_M" onclick="marcar_letra('M')">M</button>
+        <button type="button" class="btn btn-success" id="letra_N" onclick="marcar_letra('N')">N</button>
+        <button type="button" class="btn btn-success" id="letra_Ñ" onclick="marcar_letra('Ñ')">Ñ</button>
+        <button type="button" class="btn btn-success" id="letra_O" onclick="marcar_letra('O')">O</button>
+        <button type="button" class="btn btn-success" id="letra_P" onclick="marcar_letra('P')">P</button>
+        <button type="button" class="btn btn-success" id="letra_Q" onclick="marcar_letra('Q')">Q</button>
+        <button type="button" class="btn btn-success" id="letra_R" onclick="marcar_letra('R')">R</button>
+        <button type="button" class="btn btn-success" id="letra_S" onclick="marcar_letra('S')">S</button>
+        <button type="button" class="btn btn-success" id="letra_T" onclick="marcar_letra('T')">T</button>
+        <button type="button" class="btn btn-success" id="letra_U" onclick="marcar_letra('U')">U</button>
+        <button type="button" class="btn btn-success" id="letra_V" onclick="marcar_letra('V')">V</button>
+        <button type="button" class="btn btn-success" id="letra_W" onclick="marcar_letra('W')">W</button>
+        <button type="button" class="btn btn-success" id="letra_X" onclick="marcar_letra('X')">X</button>
+        <button type="button" class="btn btn-success" id="letra_Y" onclick="marcar_letra('Y')">Y</button>
+        <button type="button" class="btn btn-success" id="letra_Z" onclick="marcar_letra('Z')">Z</button>
+      </div>
+
+      <div>
+        <button type="button" class="btn-primary" onclick="nuevo_intento()">Jugar de nuevo</button>
+      </div>
+    </div>
+    <script src='js/ahorcado.js'></script>
+  </body>
+</html>
